@@ -1,5 +1,4 @@
 {
   "buildCommand": "pnpm build",
-  "outputDirectory": ".vitepress/dist",
-  "nodeVersion": "22"
+  "outputDirectory": ".vitepress/dist"
 }
