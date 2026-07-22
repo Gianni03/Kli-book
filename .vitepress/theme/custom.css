@@ -193,6 +193,10 @@
   min-height: calc(100vh - var(--vp-nav-height, 56px));
 }
 
+.dark .VPPage:has(.kli-home) {
+  background: #1a1814;
+}
+
 .VPContent .kli-home {
   max-width: 42em;
   margin: 0 auto;
@@ -200,11 +204,19 @@
   text-align: center;
 }
 
+.dark .kli-home {
+  color: var(--vp-c-text-1);
+}
+
 .kli-home .kli-logo {
   width: 100%;
   max-width: 480px;
   height: auto;
   margin: 0 auto 2.5rem;
+}
+
+.dark .kli-home .kli-logo {
+  border-radius: 16px;
 }
 
 .kli-home .kli-definition {
