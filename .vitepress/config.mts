@@ -29,6 +29,10 @@ export default defineConfig({
       next: 'Siguiente →',
     },
 
+    outline: {
+      label: 'En esta página',
+    },
+
     nav: [
       { text: 'Libro I', link: '/book-01-the-philosophy/' },
       { text: 'Libro II', link: '/book-02-the-product/' },

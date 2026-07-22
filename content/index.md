@@ -4,6 +4,7 @@ sidebar: false
 ---
 
 <div class="kli-home">
+  <img class="kli-logo" src="/img/kli02.png" alt="Kli" />
   <div class="kli-name">Kli</div>
   <div class="kli-romanization">vasija</div>
 

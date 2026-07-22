@@ -27,9 +27,9 @@
   --vp-shadow-2: 0 2px 6px rgba(42, 39, 36, 0.06), 0 1px 3px rgba(42, 39, 36, 0.05);
   --vp-shadow-3: 0 4px 14px rgba(42, 39, 36, 0.08);
 
-  /* Layout — quiet, narrow reading column */
+  /* Layout — quiet, reading column */
   --vp-layout-max-width: 1280px;
-  --vp-content-width: 860px;
+  --vp-content-width: 920px;
 
   /* Button */
   --vp-button-brand-border: transparent;
@@ -195,6 +195,13 @@
   text-align: center;
 }
 
+.kli-home .kli-logo {
+  width: 120px;
+  height: auto;
+  margin: 0 auto 1.6rem;
+  opacity: 0.85;
+}
+
 .kli-home .kli-hebrew {
   font-size: 3.4rem;
   color: var(--vp-c-text-3);
@@ -306,6 +313,12 @@
   }
 }
 
+/* === Sidebar — flush to left viewport edge === */
+.VPSidebar {
+  padding-left: 0;
+  left: 0;
+}
+
 /* === Sidebar scrollbar — site aesthetic === */
 .VPSidebar {
   scrollbar-width: thin;
@@ -327,43 +340,6 @@
 
 .VPSidebar::-webkit-scrollbar-thumb:hover {
   background: var(--vp-c-brand-soft);
-}
-
-/* === "Empezar a leer" button === */
-.vp-doc .start-reading {
-  display: inline-block;
-  margin: 2rem 0;
-  padding: 0.7rem 1.8rem;
-  font-family: var(--vp-font-family-base);
-  font-size: 1.05rem;
-  color: var(--vp-c-brand-1);
-  background: var(--vp-c-brand-soft);
-  border: 1px solid var(--vp-c-brand-soft);
-  border-radius: 4px;
-  text-decoration: none;
-  transition: background 0.2s, color 0.2s, border-color 0.2s;
-}
-
-.vp-doc .start-reading:hover {
-  background: var(--vp-c-brand-1);
-  color: var(--vp-c-bg);
-  border-color: var(--vp-c-brand-1);
-}
-
-/* === Table of contents — feels like a book index === */
-.vp-doc h2 + ul,
-.vp-doc h3 + ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.vp-doc h3 + ul {
-  padding-left: 1.2rem;
-  border-left: 1px solid var(--vp-c-divider-soft);
-}
-
-.vp-doc li {
-  margin: 0.6em 0;
 }
 
 /* === "Empezar a leer" button === */
