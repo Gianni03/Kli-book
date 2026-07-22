@@ -187,8 +187,13 @@
   font-family: var(--vp-font-family-base);
 }
 
-/* === Home page — frontispiece === */
-.kli-home {
+/* === Home page — full bg, logo blends in === */
+.VPPage:has(.kli-home) {
+  background: #e9dfd4;
+  min-height: calc(100vh - var(--vp-nav-height, 56px));
+}
+
+.VPContent .kli-home {
   max-width: 42em;
   margin: 0 auto;
   padding: 3rem 1.5rem 6rem;
@@ -200,8 +205,6 @@
   max-width: 480px;
   height: auto;
   margin: 0 auto 2.5rem;
-  background: #e9dfd4;
-  border-radius: 12px;
 }
 
 .kli-home .kli-definition {
