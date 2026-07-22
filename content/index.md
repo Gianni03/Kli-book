@@ -4,9 +4,8 @@ sidebar: false
 ---
 
 <div class="kli-home">
-  <div class="kli-hebrew">כלי</div>
   <div class="kli-name">Kli</div>
-  <div class="kli-romanization">kli · vasija</div>
+  <div class="kli-romanization">vasija</div>
 
   <p class="kli-definition">
     Una vasija. No un recipiente que acumula — algo que hace posible recibir, transformar y poner en circulación.

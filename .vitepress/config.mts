@@ -40,19 +40,6 @@ export default defineConfig({
         collapsed: false,
         items: [
           {
-            text: 'El libro',
-            collapsed: false,
-            items: [
-              { text: 'Libro I — El conocimiento como sistema vivo', link: '/book-01-the-philosophy/' },
-              { text: 'DNA', link: '/book-01-the-philosophy/DNA' },
-              { text: 'Principios inmutables', link: '/book-01-the-philosophy/PRINCIPLES' },
-              { text: 'Glosario', link: '/book-01-the-philosophy/GLOSSARY' },
-              { text: 'Preguntas fundacionales', link: '/book-01-the-philosophy/QUESTIONS' },
-              { text: 'Referencias', link: '/book-01-the-philosophy/REFERENCES' },
-              { text: 'Cronología', link: '/book-01-the-philosophy/TIMELINE' },
-            ],
-          },
-          {
             text: 'Apertura',
             collapsed: false,
             items: [
@@ -108,31 +95,32 @@ export default defineConfig({
               { text: 'Cómo decidimos', link: '/book-01-the-philosophy/chapters/06-product/03-how-we-decide' },
             ],
           },
-          {
-            text: 'Cierre',
-            collapsed: false,
-            items: [
-              { text: 'Epílogo', link: '/book-01-the-philosophy/chapters/99-epilogue' },
-            ],
-          },
-        ],
-      },
+{
+          text: 'Cierre',
+          collapsed: false,
+          items: [
+            { text: 'Epílogo', link: '/book-01-the-philosophy/chapters/99-epilogue' },
+          ],
+        },
+        {
+          text: 'El libro',
+          collapsed: false,
+          items: [
+            { text: 'Libro I — El conocimiento como sistema vivo', link: '/book-01-the-philosophy/' },
+            { text: 'DNA', link: '/book-01-the-philosophy/DNA' },
+            { text: 'Principios inmutables', link: '/book-01-the-philosophy/PRINCIPLES' },
+            { text: 'Glosario', link: '/book-01-the-philosophy/GLOSSARY' },
+            { text: 'Preguntas fundacionales', link: '/book-01-the-philosophy/QUESTIONS' },
+            { text: 'Referencias', link: '/book-01-the-philosophy/REFERENCES' },
+            { text: 'Cronología', link: '/book-01-the-philosophy/TIMELINE' },
+          ],
+        },
+      ],
+    },
       {
         text: 'Libro II — El producto',
         collapsed: false,
         items: [
-          {
-            text: 'El libro',
-            collapsed: false,
-            items: [
-              { text: 'Libro II — El producto', link: '/book-02-the-product/' },
-              { text: 'DNA-II', link: '/book-02-the-product/DNA-II' },
-              { text: 'Principios del producto', link: '/book-02-the-product/PRINCIPLES-II' },
-              { text: 'Glosario del Libro II', link: '/book-02-the-product/GLOSSARY-II' },
-              { text: 'Referencias del Libro II', link: '/book-02-the-product/REFERENCES-II' },
-              { text: 'Cronología del Libro II', link: '/book-02-the-product/TIMELINE-II' },
-            ],
-          },
           {
             text: 'Capítulos',
             collapsed: false,
@@ -149,6 +137,18 @@ export default defineConfig({
               { text: 'Ecosistema', link: '/book-02-the-product/chapters/09-ecosystem' },
               { text: 'Lo que Kli no es', link: '/book-02-the-product/chapters/10-what-kli-is-not' },
               { text: 'El momento antes del bosque', link: '/book-02-the-product/chapters/99-epilogue' },
+            ],
+          },
+          {
+            text: 'El libro',
+            collapsed: false,
+            items: [
+              { text: 'Libro II — El producto', link: '/book-02-the-product/' },
+              { text: 'DNA-II', link: '/book-02-the-product/DNA-II' },
+              { text: 'Principios del producto', link: '/book-02-the-product/PRINCIPLES-II' },
+              { text: 'Glosario del Libro II', link: '/book-02-the-product/GLOSSARY-II' },
+              { text: 'Referencias del Libro II', link: '/book-02-the-product/REFERENCES-II' },
+              { text: 'Cronología del Libro II', link: '/book-02-the-product/TIMELINE-II' },
             ],
           },
         ],
