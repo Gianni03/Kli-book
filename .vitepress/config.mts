@@ -10,7 +10,7 @@ export default defineConfig({
   lastUpdated: false,
 
   head: [
-    ['meta', { name: 'description', content: 'Kli — una vasija. Las relaciones transforman aquello que conectan. Una biblioteca pública de dos libros sobre el conocimiento como sistema vivo y el producto.' }],
+    ['meta', { name: 'description', content: 'Kli, una vasija. Las relaciones transforman aquello que conectan. Una biblioteca pública de dos libros sobre el conocimiento como sistema vivo y el producto.' }],
     ['meta', { property: 'og:site_name', content: 'Kli' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:locale', content: 'es' }],
@@ -20,10 +20,6 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    search: {
-      provider: 'local',
-    },
-
     docFooter: {
       prev: '← Anterior',
       next: 'Siguiente →',
@@ -40,7 +36,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Libro I — El conocimiento como sistema vivo',
+text: 'Libro I · El conocimiento como sistema vivo',
         collapsed: false,
         items: [
           {
@@ -110,7 +106,7 @@ export default defineConfig({
           text: 'El libro',
           collapsed: false,
           items: [
-            { text: 'Libro I — El conocimiento como sistema vivo', link: '/book-01-the-philosophy/' },
+            { text: 'Libro I · El conocimiento como sistema vivo', link: '/book-01-the-philosophy/' },
             { text: 'DNA', link: '/book-01-the-philosophy/DNA' },
             { text: 'Principios inmutables', link: '/book-01-the-philosophy/PRINCIPLES' },
             { text: 'Glosario', link: '/book-01-the-philosophy/GLOSSARY' },
@@ -122,7 +118,7 @@ export default defineConfig({
       ],
     },
       {
-        text: 'Libro II — El producto',
+text: 'Libro II · El producto',
         collapsed: false,
         items: [
           {
@@ -147,7 +143,7 @@ export default defineConfig({
             text: 'El libro',
             collapsed: false,
             items: [
-              { text: 'Libro II — El producto', link: '/book-02-the-product/' },
+              { text: 'Libro II · El producto', link: '/book-02-the-product/' },
               { text: 'DNA-II', link: '/book-02-the-product/DNA-II' },
               { text: 'Principios del producto', link: '/book-02-the-product/PRINCIPLES-II' },
               { text: 'Glosario del Libro II', link: '/book-02-the-product/GLOSSARY-II' },

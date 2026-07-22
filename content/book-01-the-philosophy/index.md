@@ -1,4 +1,4 @@
-# Libro I — El conocimiento como sistema vivo
+# Libro I, El conocimiento como sistema vivo
 
 Este libro busca responder una única pregunta.
 
@@ -97,7 +97,7 @@ No de un documento de requisitos.
 Las ideas no fueron inventadas.
 Fueron conectadas.
 
-Pichon-Rivière, Jung, Maturana, Varela, Gestalt, biomimética, micelio, filotaxia, fractales, espiral logarítmica, proporción áurea — todas estas ideas ya estaban en quien lo pensó.
+Pichon-Rivière, Jung, Maturana, Varela, Gestalt, biomimética, micelio, filotaxia, fractales, espiral logarítmica, proporción áurea, todas estas ideas ya estaban en quien lo pensó.
 
 El trabajo fue encontrar el hilo conductor.
 

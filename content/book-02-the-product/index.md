@@ -1,11 +1,11 @@
-# Libro II — El producto
+# Libro II, El producto
 
 El Libro I habló de personas.
 Este libro habla del lugar.
 
-No de las relaciones — de lo que las propicia.
-No del bosque — de la vasija que hace posible que el bosque exista.
-No de la comunidad — del hábitat donde la comunidad puede emerger.
+No de las relaciones, de lo que las propicia.
+No del bosque, de la vasija que hace posible que el bosque exista.
+No de la comunidad, del hábitat donde la comunidad puede emerger.
 
 ---
 

@@ -196,35 +196,11 @@
 }
 
 .kli-home .kli-logo {
-  width: 120px;
+  width: 100%;
+  max-width: 480px;
   height: auto;
-  margin: 0 auto 1.6rem;
-  opacity: 0.85;
-}
-
-.kli-home .kli-hebrew {
-  font-size: 3.4rem;
-  color: var(--vp-c-text-3);
-  letter-spacing: 0.2em;
-  margin-bottom: 0.4rem;
-  font-family: 'Georgia', serif;
-}
-
-.kli-home .kli-name {
-  font-family: var(--vp-font-family-base);
-  font-size: 2.8rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  margin-bottom: 1.6rem;
-  color: var(--vp-c-text-1);
-}
-
-.kli-home .kli-romanization {
-  color: var(--vp-c-text-3);
-  font-size: 1rem;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  margin-bottom: 2.4rem;
+  margin: 0 auto 2.5rem;
+  opacity: 0.9;
 }
 
 .kli-home .kli-definition {
@@ -313,10 +289,22 @@
   }
 }
 
-/* === Sidebar — flush to left viewport edge === */
+/* === Sidebar — flush to left viewport edge, narrower === */
 .VPSidebar {
   padding-left: 0;
   left: 0;
+  width: 240px !important;
+}
+
+.VPSidebar .VPSidebarNav {
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+
+/* === Reading content — left-aligned, not centered === */
+.content-container {
+  margin-left: 0 !important;
+  padding-left: 2rem;
 }
 
 /* === Sidebar scrollbar — site aesthetic === */
