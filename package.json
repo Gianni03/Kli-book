@@ -1,0 +1,13 @@
+{
+  "name": "kli-book",
+  "version": "1.0.0",
+  "description": "Kli — web pública que hospeda los libros.",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
