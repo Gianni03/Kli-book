@@ -17,6 +17,25 @@ El Libro I desarrolló las consecuencias de esa idea para las personas, las comu
 
 El Libro II desarrolla las consecuencias de esa idea para el producto.
 
+<a class="start-reading" href="/book-02-the-product/chapters/00-prologue">Empezar a leer →</a>
+
+---
+
+## Contenido
+
+- [El lugar](/book-02-the-product/chapters/00-prologue)
+- [Kli](/book-02-the-product/chapters/01-naming)
+- [Propiciar](/book-02-the-product/chapters/02-the-verb)
+- [Hábitat](/book-02-the-product/chapters/03-habitat)
+- [El jardinero](/book-02-the-product/chapters/04-gardener)
+- [Circulación](/book-02-the-product/chapters/05-circulation)
+- [Catalizador](/book-02-the-product/chapters/06-catalyst)
+- [Despertar](/book-02-the-product/chapters/07-awakening)
+- [Lenguaje visual](/book-02-the-product/chapters/08-visual-language)
+- [Ecosistema](/book-02-the-product/chapters/09-ecosystem)
+- [Lo que Kli no es](/book-02-the-product/chapters/10-what-kli-is-not)
+- [El momento antes del bosque](/book-02-the-product/chapters/99-epilogue)
+
 ---
 
 ## El nombre
@@ -32,36 +51,6 @@ Sin un kli, incluso la abundancia no encuentra dónde expresarse.
 
 Kli no habla de nosotros.
 Habla del espacio que dejamos para que otros crezcan.
-
----
-
-## Estructura
-
-```
-book-02-the-product/
-│
-├── README.md
-├── DNA-II.md                 # La vasija que hace posible.
-├── PRINCIPLES-II.md          # Principios del producto.
-├── GLOSSARY-II.md            # Conceptos clave del Libro II.
-├── REFERENCES-II.md          # Bibliografía.
-├── TIMELINE-II.md            # Cómo evolucionó el pensamiento del producto.
-├── chapters/
-│   ├── 00-prologue.md
-│   ├── 01-naming.md
-│   ├── 02-the-verb.md
-│   ├── 03-habitat.md
-│   ├── 04-gardener.md
-│   ├── 05-circulation.md
-│   ├── 06-catalyst.md
-│   ├── 07-awakening.md
-│   ├── 08-visual-language.md
-│   ├── 09-ecosystem.md
-│   ├── 10-what-kli-is-not.md
-│   └── 99-epilogue.md
-├── notes/
-└── ideas/
-```
 
 ---
 

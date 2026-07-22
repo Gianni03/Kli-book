@@ -24,55 +24,56 @@ Las relaciones transforman aquello que conectan.
 
 Todo el libro desarrolla las consecuencias de esa única idea.
 
+<a class="start-reading" href="/book-01-the-philosophy/chapters/00-prologue">Empezar a leer →</a>
+
 ---
 
-## Estructura
+## Contenido
 
-```
-book-01-the-philosophy/
-│
-├── README.md                # Este archivo. Qué es este proyecto.
-├── DNA.md                   # El corazón filosófico del producto.
-├── QUESTIONS.md             # Las preguntas fundacionales.
-├── PRINCIPLES.md            # Principios inmutables.
-├── GLOSSARY.md              # Conceptos clave (relación, pertenencia, emergencia...).
-├── TIMELINE.md              # Cómo evolucionó el pensamiento.
-├── REFERENCES.md            # Libros, autores y papers.
-├── chapters/
-│   ├── 00-prologue.md
-│   ├── 01-why-another-product.md
-│   ├── 02-relacion-antes-que-aprendizaje.md
-│   ├── 03-people/
-│   │   ├── 00-introduction.md
-│   │   ├── 01-learning.md
-│   │   ├── 02-teaching.md
-│   │   ├── 03-diversity.md
-│   │   ├── 04-empathy.md
-│   │   └── 05-curiosity.md
-│   ├── 04-relationships/
-│   │   ├── 00-introduction.md
-│   │   ├── 01-community.md
-│   │   ├── 02-dialogue.md
-│   │   ├── 03-trust.md
-│   │   ├── 04-emergence.md
-│   │   └── 05-belonging.md
-│   ├── 05-living-systems/
-│   │   ├── 00-introduction.md
-│   │   ├── 01-forest.md
-│   │   ├── 02-mycelium.md
-│   │   ├── 03-fractals.md
-│   │   ├── 04-spirals.md
-│   │   ├── 05-phyllotaxis.md
-│   │   └── 06-complexity.md
-│   ├── 06-product/
-│   │   ├── 00-introduction.md
-│   │   ├── 01-what-we-build.md
-│   │   ├── 02-what-we-dont-build.md
-│   │   └── 03-how-we-decide.md
-│   └── 99-epilogue.md
-├── notes/                   # Notas sueltas: Jung, Pichon-Rivière, Maturana...
-└── ideas/                   # Ideas futuras: naming, branding, logo...
-```
+### Apertura
+
+- [Prólogo](/book-01-the-philosophy/chapters/00-prologue)
+- [Por qué otro producto](/book-01-the-philosophy/chapters/01-why-another-product)
+- [Relación antes que aprendizaje](/book-01-the-philosophy/chapters/02-relacion-antes-que-aprendizaje)
+
+### Personas
+
+- [La persona](/book-01-the-philosophy/chapters/03-people/00-introduction)
+- [Aprender](/book-01-the-philosophy/chapters/03-people/01-learning)
+- [Enseñar](/book-01-the-philosophy/chapters/03-people/02-teaching)
+- [Variabilidad](/book-01-the-philosophy/chapters/03-people/03-diversity)
+- [Empatía](/book-01-the-philosophy/chapters/03-people/04-empathy)
+- [Curiosidad](/book-01-the-philosophy/chapters/03-people/05-curiosity)
+
+### Relaciones
+
+- [Las relaciones](/book-01-the-philosophy/chapters/04-relationships/00-introduction)
+- [Comunidad](/book-01-the-philosophy/chapters/04-relationships/01-community)
+- [Diálogo](/book-01-the-philosophy/chapters/04-relationships/02-dialogue)
+- [Confianza](/book-01-the-philosophy/chapters/04-relationships/03-trust)
+- [Emergencia](/book-01-the-philosophy/chapters/04-relationships/04-emergence)
+- [Pertenencia](/book-01-the-philosophy/chapters/04-relationships/05-belonging)
+
+### Sistemas vivos
+
+- [Los sistemas vivos](/book-01-the-philosophy/chapters/05-living-systems/00-introduction)
+- [Bosque](/book-01-the-philosophy/chapters/05-living-systems/01-forest)
+- [Micelio](/book-01-the-philosophy/chapters/05-living-systems/02-mycelium)
+- [Fractales](/book-01-the-philosophy/chapters/05-living-systems/03-fractals)
+- [Espirales](/book-01-the-philosophy/chapters/05-living-systems/04-spirals)
+- [Filotaxia](/book-01-the-philosophy/chapters/05-living-systems/05-phyllotaxis)
+- [Complejidad](/book-01-the-philosophy/chapters/05-living-systems/06-complexity)
+
+### Producto
+
+- [El producto](/book-01-the-philosophy/chapters/06-product/00-introduction)
+- [Lo que construimos](/book-01-the-philosophy/chapters/06-product/01-what-we-build)
+- [Lo que no construimos](/book-01-the-philosophy/chapters/06-product/02-what-we-dont-build)
+- [Cómo decidimos](/book-01-the-philosophy/chapters/06-product/03-how-we-decide)
+
+### Cierre
+
+- [Epílogo](/book-01-the-philosophy/chapters/99-epilogue)
 
 ---
 
