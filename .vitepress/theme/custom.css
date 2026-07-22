@@ -191,8 +191,14 @@
 .kli-home {
   max-width: 42em;
   margin: 0 auto;
-  padding: 8rem 1.5rem 6rem;
+  padding: 4rem 1.5rem 6rem;
   text-align: center;
+  background: #e9dfd4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .kli-home .kli-logo {
@@ -200,7 +206,6 @@
   max-width: 480px;
   height: auto;
   margin: 0 auto 2.5rem;
-  opacity: 0.9;
 }
 
 .kli-home .kli-definition {
@@ -299,6 +304,26 @@
 .VPSidebar .VPSidebarNav {
   padding-left: 1rem;
   padding-right: 0.5rem;
+}
+
+/* === Sidebar items — all text flush left === */
+.VPSidebar .VPSidebarItem {
+  padding-left: 0 !important;
+}
+
+.VPSidebar .VPSidebarItem .link-text,
+.VPSidebar .VPSidebarItem .text {
+  text-align: left;
+  padding-left: 0;
+}
+
+.VPSidebar .VPSidebarItem .items {
+  padding-left: 0.75rem;
+}
+
+.VPSidebar .VPSidebarItem .link {
+  padding-left: 0;
+  justify-content: flex-start;
 }
 
 /* === Reading content — left-aligned, not centered === */
