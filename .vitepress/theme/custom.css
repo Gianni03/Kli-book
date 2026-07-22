@@ -191,14 +191,8 @@
 .kli-home {
   max-width: 42em;
   margin: 0 auto;
-  padding: 4rem 1.5rem 6rem;
+  padding: 3rem 1.5rem 6rem;
   text-align: center;
-  background: #e9dfd4;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .kli-home .kli-logo {
@@ -206,6 +200,8 @@
   max-width: 480px;
   height: auto;
   margin: 0 auto 2.5rem;
+  background: #e9dfd4;
+  border-radius: 12px;
 }
 
 .kli-home .kli-definition {
@@ -294,11 +290,10 @@
   }
 }
 
-/* === Sidebar — flush to left viewport edge, narrower === */
+/* === Sidebar — flush to left viewport edge === */
 .VPSidebar {
   padding-left: 0;
   left: 0;
-  width: 240px !important;
 }
 
 .VPSidebar .VPSidebarNav {
@@ -306,24 +301,13 @@
   padding-right: 0.5rem;
 }
 
-/* === Sidebar items — all text flush left === */
-.VPSidebar .VPSidebarItem {
-  padding-left: 0 !important;
-}
-
-.VPSidebar .VPSidebarItem .link-text,
-.VPSidebar .VPSidebarItem .text {
-  text-align: left;
-  padding-left: 0;
+.VPSidebar .VPSidebarItem .item {
+  justify-content: flex-start;
 }
 
 .VPSidebar .VPSidebarItem .items {
   padding-left: 0.75rem;
-}
-
-.VPSidebar .VPSidebarItem .link {
-  padding-left: 0;
-  justify-content: flex-start;
+  margin-left: 0;
 }
 
 /* === Reading content — left-aligned, not centered === */
